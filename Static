@@ -1,0 +1,26 @@
+Static means one for class.
+
+Static variable gets memory only once.
+
+Static variables value can be change it will get change for all the object for class.
+
+Once we declared static data member inside class we have to define them outside of a class
+By using scope resolution operator .
+
+In fact we cannot assign value on static in constructor.
+If we do this them at every time of object creation value get initialize.
+
+We cannot declare static data member in local classes.
+
+
+In C++ it is must to initialize static static variable value outside of a class by using scope resolution operator.
+
+Syntax - 
+	dataType className :: variableName = value;
+	
+	Static functions can access only static variables.
+	
+	Non static variables can access static and non  static variables too.
+	
+	
+
