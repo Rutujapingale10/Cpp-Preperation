@@ -1,0 +1,17 @@
+Virtual Functions can be inline ?
+
+Inline Functions  - 
+Inline functions are used to replace function call with function definition.
+It is used for faster execution of program.
+
+They are used for efficiency.
+Inline functions substitutes whole Function definition at the time of function call.
+
+ By default all member functions can be consider as Inline except Virtual.
+
+
+Can virtual functions be inline ?
+
+If virtual functions called with base class reference or pointer then it can not be inline because functions call get resolved at run time.
+
+If virtual functions call with that particular class reference then function call resolved at compile time that time we can keep virtual functions inline.
