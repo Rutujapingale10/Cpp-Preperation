@@ -1,0 +1,13 @@
+Symbol Table :
+
+Symbol Table is a data structure used by compiler
+
+It stores identifier as well as its associated attributes like scope, type, line no of occurrence etc.
+
+
+For example 
+
+  int a
+If we have variable as a then its symbol table will stores 
+
+	Data type, variable name, value ,scope, address etc.
