@@ -1,0 +1,27 @@
+
+In Upcasting Base class Pointer pointing derived class's object.
+
+
+Means base class pointer containing address of derived class.
+Derived d;
+Base *b = &d;
+
+
+
+By creating base class pointer and assigning derived class object on it we can access
+
+Derived class properties through pointer by keeping base class function as virtual.
+
+
+
+Down casting is opposite of up casting 
+
+Child class pointer contain address of base class.
+
+Child *obj = (Child*)&base_obj 
+
+
+We manually cast base class object to derived class object so we must specify explicit type cast.
+ 
+
+
