@@ -1,0 +1,12 @@
+Exception - runtime anomalies or abnormal condition.
+
+The process of handling this exception is called Exception Handling.
+
+
+Basically exceptions occurs during execution of a program at run time.
+
+Types Of C++ Exceptions -
+
+	- Synchronous - 
+
+	Asynchronous -
