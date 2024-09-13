@@ -1,0 +1,12 @@
+What is Virtual Table?
+
+vTable or Virtual Table is a table of  function pointer that is created by compiler to support to support dynamic polymorphism .
+
+Whenever there is virtual function in a class compiler create vTable for that class . Each object of this class is then provided with a hidden pointer with this table, is known as vptr. 
+
+
+What is Virtual Pointer?
+
+The virtual pointer or vptr is a hidden pointer is added by compiler as member of class to points to the vTable of that class. for every object of class containing virtual function vptr is added to points to vtable of that class .
+
+Class has vptr if it has virtual function or it inherit virtual function. 
