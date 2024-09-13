@@ -1,0 +1,7 @@
+Initializer List
+
+Members are initialize before constructor body executes.
+
+More efficient.
+
+Can initialize const and reference member(which must be initialized at the time of creation)
