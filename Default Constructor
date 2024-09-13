@@ -1,0 +1,10 @@
+-A constructor without any arguments or with default values for any argument is said to be
+Default Constructor 
+
+	- A constructor that has zero parameter list or in other sense, a constructor that accept no
+Argument is called zero argument constructor.
+
+	- If there is no programmer defined default constructor then compiler defined default constructor implicitly during compilation. Built in by default constructor provides garbage values.
+	-  
+	- Objects of derived class will called base class constructor first then derived class constructor.
+	
