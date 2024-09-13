@@ -5,3 +5,14 @@ Members are initialize before constructor body executes.
 More efficient.
 
 Can initialize const and reference member(which must be initialized at the time of creation)
+
+
+Assignment
+
+Members are initialize after entering the constructor body.
+
+
+Less efficient.
+
+Cannot be used to initialized const or reference member(because they cannot be reassigned after creation)
+
