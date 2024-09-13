@@ -1,0 +1,34 @@
+Structure
+Structure is user defined data type.
+Structure is logical binding of data to represent one particular entity.
+It contain different types of data.(array contain same type of data)
+
+Union -
+Union is also user defines data type like structure and also hold different type of data.
+
+Enum - 
+Enum are user defined data types that contain named integer constant.
+It helps to assign constant to set of names. (by default it start from 0)
+
+
+Structure - 
+	Structure member can be initialized  with declaration in C++  
+	
+	Struct emp{
+		Int x = 0;
+		Int y = 10;
+	}
+Array of structure - 
+	Like other primitive member we can create array of structures.
+	
+	Structure pointer -
+	Like other primitive data member we can have pointer to  structure. Members of structures are accessible using -> arrow operator. 
+
+Self referential structure -  
+	Self referential structure are those structure that have one or more pointers which points to same type of structure as there member.
+	Two types of self referential pointer 
+	1)self referential pointer with single link
+	2)self referential pointer with double link
+	
+	
+ 
