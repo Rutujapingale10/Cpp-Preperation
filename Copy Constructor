@@ -1,0 +1,15 @@
+Copy constructor is a constructor which takes same type of object as a parameter.
+
+We can implement copy constructor by using reference variable
+We must use reference variable if we do not use reference variable   
+Recursion occure and that recursion detect at compile time and compilation error appiers
+
+
+Why we need copy constructor -
+To avoid shallow copy and if necessary go for deep copy.
+Explicit copy constructor or user defined copy constructor is needed when objects needed 
+Pointer or non  sharable references.
+
+There are two types of copy constructor 
+1)Implicit copy constructor - do shallow copy
+2)Explicit Copy Constructor - do deep copy
