@@ -1,0 +1,13 @@
+Abstraction is selective ignorance.
+
+Or we can say hiding of data
+
+Example of person holding educational and medical data.
+
+Abstraction Using classes
+By using access specifier we can decide that which data member we want to show outside world or which is not
+
+Abstraction Using Header files -
+Suppose we want to calculate power of any number then we just add math.h header file and use power function with syntax.
+
+Programming behind that power function is in that header file without knowing that we using power function.
