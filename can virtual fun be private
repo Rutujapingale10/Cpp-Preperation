@@ -1,0 +1,7 @@
+Virtual functions can be private as C++ has access control, but not visibility control.
+
+ As mentioned virtual functions can be overridden by derived class but under all the circumstances will only be called within base class.
+
+
+
+  
