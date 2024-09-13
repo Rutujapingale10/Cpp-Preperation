@@ -1,0 +1,31 @@
+Structure in c++ are similar like classes.
+
+C	C++
+Only data members are allowed.	Can hold both data member and member function
+It cannot have member function
+Cannot have static member 	Can have static member
+Cannot have constructor inside structure	Can have constructor inside structure
+Direct initialisation of structure member is not allowed	Direct initialisation of structure member is allowed
+Do not have access modifiers 	Can have access modifiers
+Sizeof() operator will produce 0 for empty structure	Sizeof() operator will produce 1 for empty structure 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
