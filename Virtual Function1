@@ -1,0 +1,11 @@
+Let's see need of virtual first
+
+If We want to execute all the characteristics of derived class with single reference.
+
+That time we can create base class pointer and assigned derived class object on it 
+
+But base class pointer always call base class methods to avoid this we have to keep base class functions as a virtual.
+
+Similarly we have base class pointer and we trying to delete derived class object then it will always call base class destructor.
+To avoid this we have to keep base class destructor as virtual.
+
