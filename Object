@@ -1,0 +1,14 @@
+Object is instance of class.
+
+Object is something which has
+ state 
+Behavior
+Identity
+Responsibility
+
+State - giving values to attributes 
+Behavior - how an object respond outside world
+Identity - uniqueness associated with object
+Responsibility - role of an object
+
+ 
