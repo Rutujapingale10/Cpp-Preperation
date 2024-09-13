@@ -1,0 +1,8 @@
+A friend class can access private and protected members of other classes in which it is declared as friend.
+
+
+Like friend class friend function can be granted special access to  private and protected member of a class in C++.
+
+Friend function can be 
+-Global function
+-Member function of another class
