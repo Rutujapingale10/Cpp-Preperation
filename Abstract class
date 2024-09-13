@@ -1,0 +1,12 @@
+Abstract class is a class Where class type exist but object doesn’t exist.
+
+We cannot create an object of such classes but create pointer of such classes.
+
+To create class Abstract we have to write pure virtual function .
+
+Function does not have definition but It has declaration we have to declare it to zero.
+
+We have to define pure virtual function in classes those we have derived from an abstract class.
+
+If we do not override pure virtual function in derived class then derived will also become abstract.   
+
