@@ -1,0 +1,5 @@
+In C++ static member functions cannot be virtual.
+ Virtual functions are invoked when you have pointer or reference class.
+Static functions are not tied to instance but the tied to class.
+So there is no scenario in which we invoke static functions virtually.
+  
