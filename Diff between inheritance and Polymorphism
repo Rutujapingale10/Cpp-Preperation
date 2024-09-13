@@ -1,0 +1,19 @@
+Inheritance 
+
+Reuse of already defined classes with a is a relationship is known
+As inheritance.
+
+Inheritance support concept of reusability.
+
+Inheritance basically applied to classes.
+
+
+  Polymorphism
+
+Polymorphism means Same message given to generalize things for 
+Same behavior but implemented  differently.
+
+Polymorphism allow object to decide that which form of function 
+Have to implement at compile time also at runtime.
+
+Polymorphism basically applied to functions or methods.
