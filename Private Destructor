@@ -1,0 +1,14 @@
+Destructor with private specifier called private destructors.
+
+When we want to prevent destruction of object we can make destructor private
+
+What is use of Private Destructor ? 
+
+Whenever we want to control the destruction of object of class we can make destructor private.
+For dynamically created object if we create a function to deletes object.
+
+If object is refferred after function call, the reference will become dangling.
+
+When class has private destructor only dynamic type of object of that class is created.
+
+ 
