@@ -1,0 +1,22 @@
+Copy Constructor is a constructor which takes same type of object as parameter.
+
+There are 2 types of copy constructors
+1)Implicit copy constructor
+2)Explicit copy constructor - that is programmer defined copy constructor.
+
+
+
+
+Shallow copy vs deep copy
+
+Depending upon dynamic memory held by object we need to decide which type of copy we want to perform.
+
+First lets see problem with shallow copy
+When we trying to initialize new object using already existing object and we haven't write any explicit copy constructor for that then compiler will put implicit copy constructor .
+And copy data of old object on to the new object if any data member contianing dynamic memory then old object and new object start indicating same memory location 
+If we do some changes with old object it will get reflect in new object.
+To avoid this we have to go for deep copy
+
+In deep copy we have to write our own copy constructor by using reference. If we do not use reference then recursion will occurre and that recursion will get detect at compiler time 
+
+If deep copy in explicit copy constructor we can allocate memory on variable if needed.
