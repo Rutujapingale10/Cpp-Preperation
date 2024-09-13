@@ -1,0 +1,10 @@
+Enumeration is user defined data type that can assigned some another values. These value are defined by programmer at the time of declaration.
+
+If we assigned float value to the character it will produce error, same way if we assign any other value to the enumerator
+Data types then compiler produce error.
+
+By default starting code value of first element of enum is 0. 
+It can be changed explicitly.
+ 
+Typedef
+Mostly typedef  is used to create aliase if predefine name is too large and complex to used.
