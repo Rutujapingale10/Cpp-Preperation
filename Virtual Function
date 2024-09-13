@@ -1,0 +1,3 @@
+Virtual function is a member function in a base class that we override in derived class.
+
+Sometimes there is a necessity  by using single pointer we have to execute all the properties of derived classes. That time we can make base class pointer and assigned derived class object on it. When we try to doing this base class pointer always access base class properties to avoid this we can make base class function virtual.
