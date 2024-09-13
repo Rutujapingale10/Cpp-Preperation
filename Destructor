@@ -1,0 +1,35 @@
+Destructor is also special type of function which gets called automatically when scope of objects gets over.
+Destructor has same name as class name.
+We can differentiate destructor using tilda symbol.
+
+
+Destructor function gets called automatically :
+1)The function ends
+2)The program ends
+3)A block contain local variables ends
+4)A delete operator is called.
+
+	• Destructor can also be called explicitly for an object.
+
+When we need to write user defined destructor?
+If we do not write our own destructor in a class.
+The compiler create our own destructor for us 
+
+The default destructor works fine in a class unless we have dynamically allocated memory or 
+Pointer in a class.
+
+When class contain dynamic memory allocated or pointer in the class we should write destructor to release memory before class instance is destroyed. This must be done to avoid memory leak.
+
+
+Can destructor be virtual ?
+Yes In fact  it is always a good idea to make destructor virtual in base class when we have virtual function.
+
+Let's see why we need virtual function
+ 
+When we want to access derived class objects using based class pointer in this situation we create base class pointer and assigned derived class object on it but base class pointer always 
+Access base class methods . To avoid this we create base class function as virtual
+
+Similarly we  go to destroy derived class objects using based class object it will called based class destructor always to avoid this we should write based class destructor as virtual
+
+
+
