@@ -1,0 +1,3 @@
+Template is a simple idea to pass data types as a parameter so that don’t need to write same code for different data types.
+
+It is used for generic programming.
