@@ -1,0 +1,16 @@
+It is Run - Time -Type -Information 
+
+It is mechanism that expose information about objects data type at runtime and available only for classes which have at least one virtual function. It allow the type of object to be determine during program execution.
+
+There are two types of casting 
+
+Upcasting - When pointer or reference of derived class object is treated as base class pointer.
+
+Down casting - When base class pointer or reference is converted to derived class pointer.
+
+
+
+
+ 
+
+
