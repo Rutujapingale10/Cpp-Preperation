@@ -5,3 +5,15 @@ Reuse of already defined classes with is relationship is called Inheritance
 It is basically applied to classes 
 
 It is used to reduce redundancy. Redundancy means repeatation of values for same entity.
+
+
+Polymorphism
+
+Polymorphism
+
+Same message given to generalize things for same behavior but implemented differently  
+
+It is basically applied to functions.
+
+ Polymorphism allow object that -which form of function to implement compile time 
+And which at run time
