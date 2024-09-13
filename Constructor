@@ -1,0 +1,25 @@
+1)Constructor is a special member function which gets called automatically at the time of object
+Creation.
+2)For each object constructor called separately and only once.
+3)constructor has a same name as class name.
+4)constructor do not have return type not even void.
+5)constructor used to initialized object(that is provide initialized state)
+6)constructor used to allocate memory.
+
+Types of constructor
+1)built  in constructor - Built in constructor provides garbage values
+2)default constructor - constructor doesn’t take any argument. It has no parameter.
+3)Parameterized constructor - Constructor with argument it has parameter.
+4)copy constructor - copy constructor initializes an object using another object using another object
+Of same class.
+
+
+ case
+1)When there is no programmer defined constructor built in by default constructor is given
+ 2)default constructor is available but there is no parameterized constructor we can create default that is zero argument constructor but cannot create parameterized object.
+3)Default and parameterized both are available we can create both type of object.
+4)when we don’t write default but write parameterized constructor we can create only
+Parameterized object.
+
+
+    
