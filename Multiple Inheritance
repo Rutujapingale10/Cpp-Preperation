@@ -1,0 +1,37 @@
+In multiple inheritance class is derived from more than one base class.
+
+i.e. one sub class is inherited from more than one base class.
+
+Constructor of classes are called in same order in which they are inherited.
+
+Diamond problem - 
+
+Diamond problem Occurs when two super classes of a class have common base class.
+
+ This causes ambiguity error.
+
+Object of derived class has 2 copies of All members of base class.
+
+Means Constructor and Destructor of base  gets called  twice.
+
+Solution of this problem is virtual keyword.
+
+We have to inherit classes virtually from their base classes.
+
+When we inherit classes virtually and create derived class's parameterized object then base 
+Class's default constructor gets called automatically.
+
+How to called parameterized constructor of grandparent.
+
+We have to called constructor of grand parent in derived class.
+
+Generally it is not allowed to write grand parent constructor in derived class directly.
+
+But it is allowed with virtual keyword.
+
+ 
+
+
+
+
+
