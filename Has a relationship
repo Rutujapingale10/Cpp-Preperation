@@ -1,0 +1,12 @@
+It is a process in which one class defines another class as an entity reference.
+
+It is a another way to reuse classes.
+
+
+Eg . We have 2 classes as employee and Address 
+
+And want to write address of employee in this situation instead writing same things again 
+We can simply create instance of that address class inside employee class as a member variable of that class.
+
+First have to create instance of that class that we want to reuse
+After creating instance we can treat that instance as member variable of another class
